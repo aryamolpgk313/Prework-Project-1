@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 10px;
+    background-color: beige;
+
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 1.2em;
+    color: gray;
+}
+
+#logo {
+    width: 30px;
+    height: 30px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.head {
+    margin-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.head ul li {
+    display: inline;
+    padding-left: 3%;
+}
+
+.main {
+    background-color: yellow;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.heads {
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+#img {
+    width: 400px;
+    height: 400px;
+}
+
+#name {
+    width: 400px;
+    height: 70px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+.btn {
+    background-color: white;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-weight: 700;
+    border-radius: 10%;
+}
+
+.details {
+    font-size: 1.8em;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: left;
+    margin-left: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.details ul li {
+    list-style: none;
+    color: gray;
+}
+
+.details ul li p {
+    color: black;
+    font-weight: bold;
+}
+
+#lang {
+    color: gray;
+}
+
+.footer {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.2em;
+    background-color: black;
+
+}
+
+#foot {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 5%;
+}
